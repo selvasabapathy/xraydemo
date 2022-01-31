@@ -1,0 +1,12 @@
+{
+  "files": [
+    {
+      "pattern": "maven-examples/maven-example/multi*/target/multi*-SNAPSHOT.jar",
+      "target": "pe-maven/jar/"
+    },
+    {
+      "pattern": "maven-examples/maven-example/multi*/target/multi*-SNAPSHOT-tests.jar",
+      "target": "pe-maven/testsjar/"
+    }
+  ]
+}
